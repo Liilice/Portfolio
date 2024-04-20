@@ -1,0 +1,44 @@
+@use "../assets/styles/media-querries" as mixin;
+
+.position {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  bottom: 2rem;
+  .container {
+    width: max-content;
+    padding: 1rem 4rem;
+    background: linear-gradient(to right, #1679f29d, #6595d091);
+    border: none;
+    box-shadow: var(--box-shadow);
+    border-radius: 10rem;
+    display: flex;
+    @include mixin.xxs {
+      padding: 0.7rem 1.5rem;
+    }
+    @include mixin.xs {
+      padding: 1rem 3rem;
+    }
+    li {
+      margin-right: 1rem;
+      &:hover {
+        cursor: pointer;
+        transform: scale(1.2);
+      }
+      .icone {
+        font-size: 45px;
+        color: rgb(255, 255, 255);
+        @include mixin.xxs {
+          font-size: 35px;
+        }
+        @include mixin.xs {
+          font-size: 38px;
+        }
+        @include mixin.sm {
+          font-size: 38px;
+        }
+      }
+    }
+  }
+}

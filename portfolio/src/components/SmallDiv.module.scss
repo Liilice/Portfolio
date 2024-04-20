@@ -1,0 +1,22 @@
+@use "../assets/styles/media-querries" as mixin;
+
+.container {
+  border: 2px dashed white;
+  padding: 1.5rem 1.5rem;
+  border-radius: 2rem;
+  background-color: transparent;
+  color: white;
+  margin-bottom: 2rem;
+  @include mixin.xxs {
+    padding: 1rem 1rem;
+  }
+  h4 {
+    margin-bottom: 1rem;
+  }
+  .descriptions {
+    padding-left: 3rem;
+    @include mixin.xxs {
+      padding-left: 2rem;
+    }
+  }
+}

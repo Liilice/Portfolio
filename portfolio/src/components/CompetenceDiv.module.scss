@@ -1,0 +1,85 @@
+@use "../assets/styles/media-querries" as mixin;
+.competenceContainer {
+  margin: 5rem auto 5rem auto;
+  width: 100rem;
+  @include mixin.md {
+    width: 70rem;
+  }
+  @include mixin.sm {
+    width: 50rem;
+  }
+  @include mixin.xs {
+    width: 36rem;
+  }
+  @include mixin.xxs {
+    width: 25rem;
+  }
+  h2 {
+    color: rgba(255, 255, 255, 0.92);
+    margin: auto auto 2rem auto;
+  }
+  .position {
+    display: flex;
+    justify-content: center;
+    @include mixin.xxs {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    @include mixin.xs {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    @include mixin.sm {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .container {
+      width: 30rem;
+      height: 25rem;
+      border: 2px solid white;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: rgb(140, 140, 220);
+      margin-right: 3rem;
+      @include mixin.xxs {
+        width: 20rem;
+        height: 16rem;
+        margin-bottom: 2rem;
+      }
+      @include mixin.xs {
+        height: 16rem;
+        margin-bottom: 2rem;
+      }
+      @include mixin.sm {
+        height: 18rem;
+        margin-bottom: 2rem;
+      }
+      @include mixin.md {
+        height: 20rem;
+      }
+      .resize {
+        width: 10rem;
+        @include mixin.lg {
+          width: 8rem;
+        }
+        @include mixin.md {
+          width: 6rem;
+        }
+        @include mixin.sm {
+          width: 6rem;
+        }
+        @include mixin.xs {
+          width: 6rem;
+        }
+        @include mixin.xxs {
+          width: 6rem;
+        }
+      }
+    }
+  }
+}

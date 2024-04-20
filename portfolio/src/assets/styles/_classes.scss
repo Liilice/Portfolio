@@ -1,0 +1,12 @@
+.hidden {
+  display: none;
+}
+.visible {
+  display: block;
+}
+.underline {
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-image: linear-gradient(to right, #95bbe9 0%, #f1b8d2 100%) 1;
+  margin-bottom: 2rem;
+}

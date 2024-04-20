@@ -1,0 +1,53 @@
+{
+  "Battelship": {
+    "name": "Battelship",
+    "description": "Ce projet consiste à achever le développement d'un jeu de bataille navale qui avait été initié mais laissé inachevé. L'objectif est de débugger le code existant, de compléter les fonctionnalités manquantes et d'améliorer l'expérience utilisateur.",
+    "language": ["JavaScript"],
+    "groupe ou indivuduel": "Groupe",
+    "screen": []
+  },
+  "mymeetic": {
+    "name": "Mymeetic",
+    "description": "Ce projet a pour but de créer un site de rencontres dédiée aux étudiants à la manière d'un Meetic. Le développement du site se fait en utilisant PHP orienté objet, avec l'intégration de requêtes AJAX en jQuery pour la vérification et le traitement des données. Une attention particulière est portée à la sécurité des données, avec des mesures rigoureuses pour prévenir les risques d'injections SQL. ",
+    "language": [
+      "HTML5/CSS",
+      "JQuery",
+      "Ajax",
+      "PHP",
+      "Programmation orientée objet",
+      "Validation des données côté front puis côté back"
+    ],
+    "groupe ou indivuduel": "indivuduel",
+    "screen": []
+  },
+  "mycinema": {
+    "name": "Mycinema",
+    "description": "Ce projet consiste à créer un site web interactif qui interagit avec une base de données MySQL fournie. L'objectif principal est de développer une interface web robuste en utilisant principalement PHP et MySQL. Le site permet aux utilisateurs d'effectuer différentes interactions avec la base de données, telles que la recherche de films, la recherche d'utilisateurs, la modification et la suppression des abonnements.",
+    "language": ["PHP", "SQL", "MySQL", "Bootstrap CSS", "Javascript"],
+    "groupe ou indivuduel": "indivuduel",
+    "screen": []
+  },
+  "Twitter": {
+    "name": "Twitter",
+    "description": "Ce projet consiste à développer un réseau social pour les étudiants de la promotion, offrant des fonctionnalités similaires à Twitter. Il permettra aux utilisateurs de publier des messages courts, de suivre d'autres utilisateurs, d'interagir avec des publications et de rester connectés avec leur communauté étudiante. L'objectif est de créer une plateforme intuitive et sécurisée qui facilite la communication et l'échange d'idées entre les étudiants.",
+    "language": ["PHP", "HTML & CSS", "JS", "Ajax", "Tailwind"],
+    "durer": "1 mois",
+    "groupe ou indivuduel": "Groupe",
+    "screen": []
+  },
+
+  "Puissance 4": {
+    "name": "Puissance_4",
+    "description": " Ce projet a pour objectif de créer un plugin JavaScript reproduisant le célèbre jeu de Puissance 4. Le plugin sera conçu de manière modulaire, permettant de configurer plusieurs options, telles que le nombre de colonnes et de lignes de la grille de jeu ainsi que les couleurs des jetons pour chaque joueur, en veillant à ce qu'ils soient distincts. Cela offrira une flexibilité maximale aux utilisateurs pour personnaliser l'expérience de jeu selon leurs préférences.",
+    "language": ["Javascript (ES6)", "HTML", "CSS", "Algorithmie"],
+    "groupe ou indivuduel": "indivuduel",
+    "screen": []
+  },
+  "Spotify": {
+    "name": "Spotify",
+    "description": "Ce projet consiste à créer un site web qui se connecte à une API musicale pour fournir une expérience interactive aux utilisateurs. Les fonctionnalités principales incluent des pages de listing et de détail pour les albums, les genres et les artistes, ainsi qu'une fonction de recherche. Chaque page offre une navigation intuitive et permet aux utilisateurs d'accéder facilement aux informations musicales désirées.",
+    "language": ["HTML", "CSS", "React", "Les APIs", "Le JSON"],
+    "groupe ou indivuduel": "Groupe",
+    "screen": []
+  }
+}

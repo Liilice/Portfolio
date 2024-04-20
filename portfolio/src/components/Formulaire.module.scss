@@ -1,0 +1,101 @@
+@use "../assets/styles/media-querries" as mixin;
+
+form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1vh 1vw;
+  h2 {
+    margin: 0rem;
+    padding: 0rem;
+  }
+  input {
+    width: 35vw;
+    height: 5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: 3px solid #71a9ed99;
+    outline: none;
+    @include mixin.xxs {
+      width: 60vw;
+      border: 2px solid #71a9ed99;
+    }
+    @include mixin.xs {
+      width: 50vw;
+      border: 2px solid #71a9ed99;
+    }
+    @include mixin.sm {
+      width: 50vw;
+      border: 2px solid #71a9ed99;
+    }
+    @include mixin.md {
+      width: 50vw;
+      border: 2px solid #71a9ed99;
+    }
+  }
+  .supperposition {
+    position: relative;
+    top: 2.4vh;
+    left: -10vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    background-color: white;
+  }
+  .superposTextarea {
+    position: relative;
+    top: 2.7vh;
+    left: -10vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    background-color: white;
+  }
+  textarea {
+    width: 35vw;
+    height: 15rem;
+    border-radius: 20px;
+    border: 3px solid #71a9ed99;
+    outline: none;
+    padding: 0.5rem 1rem;
+    @include mixin.xxs {
+      width: 60vw;
+      border: 2px solid #71a9ed99;
+    }
+    @include mixin.xs {
+      width: 50vw;
+      border: 2px solid #71a9ed99;
+    }
+    @include mixin.sm {
+      border: 2px solid #71a9ed99;
+      width: 50vw;
+    }
+    @include mixin.md {
+      border: 2px solid #71a9ed99;
+      width: 50vw;
+    }
+  }
+  .submit {
+    width: 10vw;
+    height: 5rem;
+    font-size: 1.6rem;
+    &:hover {
+      cursor: pointer;
+    }
+    @include mixin.xxs {
+      width: 60vw;
+      font-size: 1.2rem;
+      border: 2px solid #71a9ed99;
+    }
+    @include mixin.xs {
+      width: 20vw;
+      font-size: 1.2rem;
+    }
+    @include mixin.sm {
+      width: 20vw;
+    }
+    @include mixin.md {
+      width: 20vw;
+    }
+  }
+}

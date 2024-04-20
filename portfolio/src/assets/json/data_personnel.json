@@ -1,0 +1,67 @@
+{
+  "info": {
+    "name": "Alice Zheng",
+    "présentation": [
+      "Bonjour !",
+      "Développeuse Web, passionnée par la création et l'évolution de sites Web.",
+      "Au cours de ma formation en tant que développeuse Web, j'ai appris à concevoir des sites web et à les personnaliser pour les rendre fonctionnels.",
+      "Affamée  par l'idée d'explorer différents langages et technologies et technologies, je suis ouverte à l'apprentissage de nouvelles compétences pour progresser constamment dans ce domaine.",
+      "Si vous recherchez une développeuse Web passionnée, archarnée, dévouée et engagée pour vos projets, contactez-moi !"
+    ],
+    "accroche": "Donner une vie digitale à une idée / une envie à un clic",
+    "coordonnées": {
+      "phone": "+33 6 52 42 21 42",
+      "Email": "alice.zheng@epitech.eu",
+      "Postal": "93120 La Courneuve"
+    },
+    "etat_recherche": "Développeur full stack",
+    "BackEnd": { "BackEnd": ["PHP", "SQL", "API"] },
+    "FrontEnd": {
+      "FrontEnd": ["Javascript", "React", "HTML/CSS", "SCSS", "Tailwind"]
+    },
+    "Autres": { "Autres": ["Github", "Canvas", "Trello"] },
+    "Softskills": [
+      "Persévérance",
+      "Autonomie",
+      "Réactivité",
+      "Bonne gestion du temps",
+      "Esprit d’équipe",
+      "La flexibilité et l’adaptation"
+    ],
+    "formations": {
+      "année": "2023-2025",
+      "ecole": "Web@academie by EPITECH - Paris",
+      "diplome": "Développeur-Intégrateur Web (Titre 5 RNCP - BAC +2)",
+      "description": [
+        "Pédagogie par projets (délais, attentes, niveau de difficulté...)",
+        "Expérimentation centrée sur la résolution de problèmes",
+        "Réalisation de projets de groupe : site web front & back-end (MVC, POO)",
+        "Cahier des charges",
+        "Code review"
+      ]
+    },
+    "diplomes": {
+      "année": "2018",
+      "ecole": "Lycée Jacques Brel - 93",
+      "diplome": "Baccalauréat Géneral Scientifique - Spécialité Informatique et sciences du numérique"
+    },
+    "expériencesProfessionnelles": {
+      "année": "2020 - 2024",
+      "ecole": "Buraliste ",
+      "description": [
+        "Conseil, vente et relation clients",
+        "Administration du stock",
+        "Travail en équipe",
+        "Tenue de caisse"
+      ],
+      "competenceAcquises": [
+        "collaboration",
+        "patience",
+        "entraide",
+        "travail en équipe",
+        "organisation"
+      ]
+    },
+    "langues": ["Mandarin", "Anglais"]
+  }
+}

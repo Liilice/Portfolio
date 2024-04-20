@@ -1,0 +1,75 @@
+@use "../assets/styles/media-querries" as mixin;
+.container {
+  display: flex;
+  align-items: center;
+  margin: 2vh;
+  @include mixin.xxs {
+    word-break: break-word;
+  }
+  @include mixin.xs {
+    word-break: break-word;
+  }
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon {
+    margin-left: 1rem;
+    font-size: 28px;
+    color: rgb(150, 122, 236);
+    @include mixin.md {
+      font-size: 29px;
+    }
+    @include mixin.sm {
+      font-size: 29px;
+    }
+    @include mixin.xs {
+      font-size: 29px;
+    }
+    @include mixin.xxs {
+      font-size: 29px;
+    }
+  }
+  img {
+    max-width: 25%;
+    opacity: 0.5;
+    border-radius: 6rem;
+    margin-right: 1rem;
+    @include mixin.md {
+      display: none;
+    }
+    @include mixin.sm {
+      display: none;
+    }
+    @include mixin.xs {
+      display: none;
+    }
+    @include mixin.xxs {
+      display: none;
+    }
+  }
+  .buttonContainer {
+    display: flex;
+    // flex-wrap: wrap;
+    @include mixin.md {
+      display: grid;
+      grid-template-rows: repeat(2, 1fr);
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @include mixin.sm {
+      display: grid;
+      grid-template-rows: repeat(2, 1fr);
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @include mixin.xs {
+      display: grid;
+      grid-template-rows: repeat(2, 1fr);
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @include mixin.xxs {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

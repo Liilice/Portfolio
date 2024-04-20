@@ -1,0 +1,47 @@
+@use "../assets/styles/media-querries" as mixin;
+
+.container {
+  margin: 5rem auto 5rem auto;
+  height: auto;
+  width: 100rem;
+  border-radius: 2rem;
+  background-color: #ffffff;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 4rem;
+  @include mixin.md {
+    width: 70rem;
+    flex-direction: column;
+  }
+  @include mixin.sm {
+    width: 50rem;
+    padding: 1rem 1rem;
+    flex-direction: column;
+  }
+  @include mixin.xs {
+    width: 36rem;
+    padding: 1rem 1rem;
+    flex-direction: column;
+  }
+  @include mixin.xxs {
+    width: 25rem;
+    padding: 1rem 1rem;
+    flex-direction: column;
+  }
+  h2 {
+    background: linear-gradient(to right, #95bbe9 0%, #f1b8d2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    max-width: max-content;
+  }
+  ul {
+    margin-left: 2rem;
+    li {
+      margin-bottom: 1rem;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+  }
+}
