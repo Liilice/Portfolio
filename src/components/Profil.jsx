@@ -1,7 +1,6 @@
 import styles from "./Profil.module.scss";
 import AboutMe from "./AboutMe.jsx";
 import Formation from "./Formation.jsx";
-import Experience from "./Experience.jsx";
 
 function Profil(json) {
   return (

@@ -1,5 +1,4 @@
-import NightlightOutlinedIcon from "@mui/icons-material/NightlightOutlined";
-import styles from "./Header.module.scss";
+import "./Header.module.scss";
 import HeaderContenu from "./HeaderContenu.jsx";
 import logo from "../assets/images/Logo.png";
 

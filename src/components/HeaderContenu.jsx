@@ -2,7 +2,6 @@ import styles from "./HeaderContenu.module.scss";
 import profil from "../assets/images/profil.png";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 import PermIdentityOutlinedIcon from "@mui/icons-material/PermIdentityOutlined";
 import PsychologyIcon from "@mui/icons-material/Psychology";
 import ContactMailIcon from "@mui/icons-material/ContactMail";

@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Header from "./components/Header";
 import data from "./assets/json/data_personnel.json";
