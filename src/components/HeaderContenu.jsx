@@ -32,7 +32,7 @@ const HeaderContenu = ({ info }) => {
               target="_blank"
               rel="noreferrer"
             >
-              <LinkedInIcon className={`${styles.icon}`} />
+              <LinkedInIcon className={`${styles.icone}`} />
             </a>
           </li>
           <li>
@@ -41,7 +41,7 @@ const HeaderContenu = ({ info }) => {
               target="_blank"
               rel="noreferrer"
             >
-              <GitHubIcon className={`${styles.icon}`} />
+              <GitHubIcon className={`${styles.icone}`} />
             </a>
           </li>
         </ul>

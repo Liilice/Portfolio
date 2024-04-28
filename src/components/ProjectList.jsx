@@ -15,6 +15,9 @@ function ProjectList(info) {
         </p>
         <img src={gitQRCode} alt="github QR Code" />
       </div>
+      <a href="https://github.com/Liilice" target="_blank" rel="noreferrer">
+        Github
+      </a>
       <ul className={`${styles.projetContainer}`}>
         {arr.map((elem) => (
           <DetailsProject json={elem} />

@@ -4,6 +4,7 @@ import Puissance_4 from "../assets/images/Puissance 4.png";
 import Mymeetic from "../assets/images/mymeeticAccueil.png";
 import Twitter from "../assets/images/twitterAccueil.png";
 import Spotify from "../assets/images/spotifyAccueil.png";
+import hint from "../assets/images/hint.png";
 import styles from "./ProjectList.module.scss";
 
 function DetailsProject(info) {
@@ -39,6 +40,7 @@ function DetailsProject(info) {
         <div className={`${styles.front_carte}`}>
           <h4>{info.json[1].name}</h4>
           <img src={srcImage(info.json[1].name)} alt={info.json[1].name} />
+          <img src={hint} alt="fleche tournante" className={`${styles.hint}`} />
           <button>Détails</button>
         </div>
         <div className={`${styles.back_carte}`}>

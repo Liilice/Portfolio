@@ -16,13 +16,13 @@ function CompetenceDiv(info) {
       {info.info.Autres ? <h3>AUTRES OUTILS</h3> : ""}
       <ul>
         {info.info.BackEnd
-          ? info.info.BackEnd.map((elem) => <li>-{elem}</li>)
+          ? info.info.BackEnd.map((elem) => <li>{elem}</li>)
           : ""}
         {info.info.FrontEnd
-          ? info.info.FrontEnd.map((elem) => <li>-{elem}</li>)
+          ? info.info.FrontEnd.map((elem) => <li>{elem}</li>)
           : ""}
         {info.info.Autres
-          ? info.info.Autres.map((elem) => <li>-{elem}</li>)
+          ? info.info.Autres.map((elem) => <li>{elem}</li>)
           : ""}
       </ul>
     </div>

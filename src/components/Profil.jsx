@@ -9,7 +9,6 @@ function Profil(json) {
       <section className={`${styles.timeline}`}>
         <div className={`${styles.timelineRow}`}>
           <Formation info={json.dataPersonnel.info} />
-          {/* <Experience info={json.dataPersonnel.info} /> */}
         </div>
       </section>
     </div>

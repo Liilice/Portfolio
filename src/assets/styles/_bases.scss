@@ -148,15 +148,17 @@ input {
 }
 button {
   padding: 1rem 2.5rem;
-  background: linear-gradient(to right, #95bbe9, #f1b8d2);
+  // background: linear-gradient(to right, #95bbe9, #f1b8d2);
   border-radius: 1rem;
   border: none;
   color: white;
+  background-color: rgb(178, 154, 250);
   font-weight: bold;
   margin-left: 1rem;
   font-size: 1.8rem;
   &:hover {
     cursor: pointer;
+    background: linear-gradient(to right, #95bbe9, #f1b8d2);
   }
   @include mixin.xxs {
     padding: 1rem 2rem;

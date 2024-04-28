@@ -62,6 +62,15 @@
       @include mixin.md {
         height: 20rem;
       }
+      h3 {
+        color: #000;
+        margin-bottom: 1rem;
+      }
+      ul {
+        li {
+          color: #000;
+        }
+      }
       .resize {
         width: 10rem;
         @include mixin.lg {

@@ -4,7 +4,7 @@ import logo from "../assets/images/Logo.png";
 
 function Header(json) {
   return (
-    <header>
+    <header id="header">
       <nav>
         <img src={logo} alt="logo" />
         {/* <NightlightOutlinedIcon sx={{ fontSize: 35 }} /> */}

@@ -10,7 +10,7 @@ function Navigation() {
     <div className={`${styles.position}`}>
       <ul className={`${styles.container} `}>
         <li>
-          <a href="/">
+          <a href="#header">
             <HomeOutlinedIcon className={`${styles.icone}`} />
           </a>
         </li>

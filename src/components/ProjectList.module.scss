@@ -16,6 +16,11 @@
   @include mixin.xxs {
     width: 25rem;
   }
+  a {
+    color: white;
+    text-decoration: underline;
+    font-style: italic;
+  }
   .qrcodeContainer {
     img {
       width: 15%;
@@ -114,6 +119,21 @@
             padding: 1rem 0rem;
             text-align: center;
           }
+          .hint {
+            max-width: 25%;
+            @include mixin.xxs {
+              display: none;
+            }
+            @include mixin.xs {
+              display: none;
+            }
+            @include mixin.sm {
+              display: none;
+            }
+            @include mixin.md {
+              display: none;
+            }
+          }
           button {
             width: 10rem;
             position: absolute;
@@ -136,6 +156,12 @@
               padding: 0.4rem 1rem;
               margin-bottom: 0.2rem;
               font-size: 1.1rem;
+            }
+            @include mixin.lg {
+              display: none;
+            }
+            @include mixin.xl {
+              display: none;
             }
           }
         }
