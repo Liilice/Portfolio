@@ -20,6 +20,7 @@
   }
   .position {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     @include mixin.xxs {
       flex-direction: column;
@@ -46,6 +47,7 @@
       align-items: center;
       background: rgb(140, 140, 220);
       margin-right: 3rem;
+      margin-bottom: 2rem;
       @include mixin.xxs {
         width: 20rem;
         height: 16rem;

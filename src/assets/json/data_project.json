@@ -49,5 +49,12 @@
     "language": ["HTML", "CSS", "React", "Les APIs", "Le JSON"],
     "groupe ou indivuduel": "Groupe",
     "screen": []
+  },
+  "MyQuizz": {
+    "name": "MyQuizz",
+    "description": "Ce projet consiste à créer un site web interactif qui permet aux utilisateurs de tester et d'améliorer leur culture générale à travers des quiz variés. L'objectif principal est de développer une plateforme engageante et personnalisée, tout en respectant des contraintes techniques spécifiques. Le site sera développé en utilisant principalement le framework Symfony (version 3 ou supérieure) et interagira avec une base de données MySQL.",
+    "language": ["Symfony"],
+    "groupe ou indivuduel": "Groupe",
+    "screen": []
   }
 }

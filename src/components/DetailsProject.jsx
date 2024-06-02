@@ -4,6 +4,7 @@ import Puissance_4 from "../assets/images/Puissance 4.png";
 import Mymeetic from "../assets/images/mymeeticAccueil.png";
 import Twitter from "../assets/images/twitterAccueil.png";
 import Spotify from "../assets/images/spotifyAccueil.png";
+import MyQuizz from "../assets/images/My_quizz.png";
 import hint from "../assets/images/hint.png";
 import styles from "./ProjectList.module.scss";
 
@@ -28,6 +29,9 @@ function DetailsProject(info) {
         break;
       case "Spotify":
         output = Spotify;
+        break;
+      case "MyQuizz":
+        output = MyQuizz;
         break;
       default:
         break;

@@ -7,6 +7,9 @@ function Competence(info) {
       <div className={`${styles.position}`}>
         <CompetenceDiv info={info.dataPersonnel.info.BackEnd} />
         <CompetenceDiv info={info.dataPersonnel.info.FrontEnd} />
+        <CompetenceDiv info={info.dataPersonnel.info.Framework} />
+        <CompetenceDiv info={info.dataPersonnel.info.MernStack} />
+        <CompetenceDiv info={info.dataPersonnel.info.BaseDonnées} />
         <CompetenceDiv info={info.dataPersonnel.info.Autres} />
       </div>
     </div>

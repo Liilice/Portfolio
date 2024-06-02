@@ -15,9 +15,16 @@
       "Postal": "93120 La Courneuve"
     },
     "etat_recherche": "Développeur full stack",
-    "BackEnd": { "BackEnd": ["PHP", "SQL", "API"] },
+    "BackEnd": { "BackEnd": ["PHP"] },
     "FrontEnd": {
       "FrontEnd": ["Javascript", "React", "HTML/CSS", "SCSS", "Tailwind"]
+    },
+    "BaseDonnées": {
+      "BaseDonnées": ["Mysql", "MongoDB", "Supabase"]
+    },
+    "Framework": { "Framework": ["Symfony", "Laravel", "Next.js"] },
+    "MernStack": {
+      "MernStack": ["NodeJs", "React", "Express", "MongoDB"]
     },
     "Autres": { "Autres": ["Github", "Canvas", "Trello"] },
     "Softskills": [
